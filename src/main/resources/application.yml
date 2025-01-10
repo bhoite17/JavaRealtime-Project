@@ -1,0 +1,19 @@
+
+server:
+  port: 9090
+
+spring:
+  application:
+    name: Mini-Project_02-ReportAPI-Developement
+
+  
+   
+  datasource:
+    username: root
+    password: Vaibhav17.
+    url: jdbc:mysql://localhost:3306/projects_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  jpa:
+   hibernate:
+    ddl-auto: update
